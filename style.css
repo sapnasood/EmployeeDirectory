@@ -1,0 +1,36 @@
+.cont1{
+    position: relative;
+    float: left;
+    /*border: 4px solid #ddd;*/
+    width: 10%;
+    /*margin-top: 50px;*/
+    text-align: center;
+    padding: 70px 10px 600px 10px;
+    background: #273746;
+    overflow: hidden;
+}
+
+.menu{
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+}
+.cont2{
+    position: relative;
+    float: left;
+    /*border: 4px solid #ddd;*/
+    width:70%;
+    text-align: center;
+}
+
+.divOutput{
+    position: relative;
+    float: left;
+    /*border: 4px solid pink;*/
+    width:70%;
+    text-align: left;
+    margin-top: 30px;
+    padding: 30px;
+
+}
