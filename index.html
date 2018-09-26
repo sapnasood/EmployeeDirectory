@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!--Div for side menu bar-->
+  <div class="cont1">
+    <i class="fa fa-address-book fa-4x" aria-hidden="true"></i><br>
+    <a class="menu" href="./index.html">VIEW</a> <br>
+    <a class="menu" href="./index.html">ADD</a> <br>
+    <a class="menu" href="./index.html">UPDATE</a> <br>
+    <a class="menu" href="./index.html">DELETE</a> <br>
+    <a class="menu" href="./index.html">VERIFY</a>
+  </div>
+  <!--Div for second container-->
+  <div class="cont2">
+    <span>
+      <input class="empName" type="text" name="EmpName" value="Sarah">
+      <input class="empOffnum" type="text" name="officeNum" value="345">
+      <input class="empPhnum" type="text" name="phoneNum" value="222-789-5231">
+      <button class="empButton">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </span> <br>
+    <!--Div to display output-->
+    <div class="divOutput"></div>
+  </div>
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+   <!--<script src="dom.js"></script>-->
+  <script src="employeeList.js"></script>
+</body>
+
+</html>
